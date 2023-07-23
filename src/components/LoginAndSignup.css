@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.3rem;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.form {
+  text-align: center;
+  margin: 5rem 5rem;
+}
+
+.form h2 {
+  margin-bottom: 1rem;
+}
+
+.form p {
+  margin-bottom: 1rem;
+}
+
+.inputBody {
+  display: flex;
+  place-items: center;
+}

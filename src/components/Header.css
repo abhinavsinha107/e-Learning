@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__description {
+    text-align: center;
+    line-height: 2rem;
+    background-color: #7f7f7f;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.header__description h1 {
+    margin-bottom: 1rem;
+}
+
+.header__image img {
+    width: 50vw;
+}

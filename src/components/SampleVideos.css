@@ -1,0 +1,33 @@
+.section {
+  padding: 0 2rem;
+}
+
+.section h1 {
+  margin-left: 1rem;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 0.5rem;
+  margin: 1rem 1rem;
+}
+
+.container iframe {
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.navigateToDashboard {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+}
+
+.navigateToDashboard h2 {
+    margin-bottom: 1rem;
+}
